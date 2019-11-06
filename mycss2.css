@@ -1,0 +1,28 @@
+html,body{
+    height: 100%;
+}
+
+
+.wrap{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    border: solid red 2px;
+}
+
+.first{
+    background: yellow;
+    border: 2px green solid;
+    flex: 1;
+}
+/* 
+    dispaly flex :: 
+    flex는 반응형 웹사이트 만들때 사용 %단위로 범위 조정
+
+    flex direction :: 
+    방향 설정 column or row 뭐 이런거/
+
+    justify-content: space-between ::
+
+    clone-cording
+*/

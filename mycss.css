@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: darkturquoise;
+    height: 100%;
+}
+
+div {
+    font-size: 30px;
+    color: violet;
+    text-align: center;
+    border: solid 3px blue;
+    display: inline-block;
+    width: 20%;
+    height: 30%;
+    border-radius: 1em;
+    /* margin: 5%; */
+    margin: 100px 30px 10px 0px;
+    padding: 30px;
+    overflow: auto;
+    float: left;
+}
+
+/* 
+    margin :: 
+    두가지 속성일 때 위 아래
+    네가지 속성일때는 시계방향으로 위 오 아 왼으로 속성값이 들어감    
+
+    overflow ::
+    글 상자안에 글이 상자 범위를 넘어가면 스크롤이나 뭐뭐뭐를 이용해서 상자 크기 안에 오브젝트를 표현 
+    
+    float ::
+    이 속성을 가진 태그는 둥둥 떠다녀서 전체에서 정렬됨 보통 left 많이 씀
+    웹사이트 레이아웃 
+    */
+.make_class{
+    caret-color: black;
+    border: red solid 2px;
+}
+
+#first{
+    background: red;
+}
+
+#you{
+    color: white;
+    border: 5px yellow solid;
+}
+
+.back_class{
+    background: white;
+}
+
+.clear_class{
+    clear: both;
+}
